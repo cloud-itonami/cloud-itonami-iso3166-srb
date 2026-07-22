@@ -1,14 +1,44 @@
 # cloud-itonami-iso3166-srb
 
-Open ISO 3166 Blueprint for **SRB**: Republic of Serbia.
+Open ISO 3166 Blueprint for **SRB**: Republic of Serbia (EU-candidate,
+non-EU-member).
+
+**`:implemented`** for **SRB**. Flagship `nonresident-pib-missing`
+(Art. 26 Zakon o poreskom postupku i poreskoj administraciji).
+
+```
+clojure -M:dev:test
+```
 
 Independent public-sector market-entry & procurement-compliance service
 for an already-incorporated operator entering public contracts in Serbia.
 
 ## Official surface (web-verified)
 
-- Procurement: Public Procurement Portal (jnportal.ujn.gov.rs) under Public Procurement Law
-- Business/tax: APR business register + PIB tax ID
+- Procurement: Kancelarija za javne nabavke (Office for Public
+  Procurement, ujn.gov.rs) operates the Portal javnih nabavki
+  (jnportal.ujn.gov.rs) under the Zakon o javnim nabavkama ("Sl.
+  glasnik RS", br. 91/2019 i 92/2023). (Note: an earlier draft of this
+  README assumed the name "Uprava za javne nabavke" -- verified this
+  tick against ujn.gov.rs directly and corrected to the agency's actual
+  official name, Kancelarija za javne nabavke.)
+- Business/tax: Agencija za privredne registre (APR, apr.gov.rs) runs
+  the unified business register; Poreska uprava (purs.gov.rs) assigns
+  the PIB tax identification number, including to non-resident legal
+  entities' permanent business units (Art. 26 Zakon o poreskom
+  postupku i poreskoj administraciji).
+- Foreign investment: Razvojna agencija Srbije (RAS, ras.gov.rs) is
+  the investment-promotion agency. Serbia's Zakon o ulaganjima (Law on
+  Investments, "Sl. glasnik RS", br. 89/2015 i 95/2018) gives foreign
+  investors national treatment (Art. 7) and does not impose an explicit
+  FDI screening/notification threshold -- this asymmetry with EU-member
+  siblings (e.g. Poland) is deliberate and disclosed, not an omission.
+
+See `src/marketentry/facts.cljc` and `src/statute/facts.cljc` for the
+full citation trail and an explicit provenance disclosure (the official
+gazette registry, pravno-informacioni-sistem.rs, was unreachable this
+session -- statute citations are corroborated via a private legal
+publisher instead, clearly marked as such).
 
 ## What this is NOT
 
