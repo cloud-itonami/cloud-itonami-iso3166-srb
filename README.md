@@ -34,7 +34,7 @@ for an already-incorporated operator entering public contracts in Serbia.
   FDI screening/notification threshold -- this asymmetry with EU-member
   siblings (e.g. Poland) is deliberate and disclosed, not an omission.
 
-See `src/marketentry/facts.cljc` and `src/statute/facts.cljc` for the
+See `src/marketentry/facts.cljk` and `src/statute/facts.cljk` for the
 full citation trail and an explicit provenance disclosure (the official
 gazette registry, pravno-informacioni-sistem.rs, was unreachable this
 session -- statute citations are corroborated via a private legal
@@ -56,7 +56,7 @@ Alongside the market-entry / statute catalogs, this repo carries a
 `com-junkawasaki/root`) — national dishes, protected products, beverages,
 crafts, festivals and heritage sites for Serbia:
 
-- `src/culture/facts.cljc` — the catalog, source of truth (keyed by
+- `src/culture/facts.cljk` — the catalog, source of truth (keyed by
   uppercase ISO3, mirroring `statute.facts`).
 - `schema/culture.edn` — DataScript schema.
 - `data/culture-tx.edn` — derived DataScript tx-data (regenerated from
