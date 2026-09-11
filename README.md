@@ -7,7 +7,7 @@ non-EU-member).
 (Art. 26 Zakon o poreskom postupku i poreskoj administraciji).
 
 ```
-clojure -M:dev:test
+kbb -M:dev:test
 ```
 
 Independent public-sector market-entry & procurement-compliance service
