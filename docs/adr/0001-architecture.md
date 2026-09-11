@@ -7,5 +7,5 @@ permanent business unit, Poreska uprava). No second secondary
 establishment and NIP-verification are two independent facts), Serbia
 (EU-candidate, non-EU-member) has only the one PIB mechanism — adding a
 second check would fabricate a distinction the source statute does not
-draw. See `src/marketentry/governor.cljc` docstring for the full
+draw. See `src/marketentry/governor.cljk` docstring for the full
 reasoning and citation trail.

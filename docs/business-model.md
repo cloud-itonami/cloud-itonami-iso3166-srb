@@ -61,7 +61,7 @@
 - every requirement cites the official portal or regulation, never
   invented; where the primary official gazette source
   (pravno-informacioni-sistem.rs) was unreachable this session, the
-  gap is disclosed explicitly in `src/statute/facts.cljc` rather than
+  gap is disclosed explicitly in `src/statute/facts.cljk` rather than
   papered over
 
 ## Honest disclosure: no FDI screening mechanism found

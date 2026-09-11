@@ -1,9 +1,9 @@
-;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljk
 ;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
 ;; Provenance: all three entries corroborated via paragraf.rs (private
 ;; publisher) because pravno-informacioni-sistem.rs (the official
 ;; gazette registry) refused every connection this session — see
-;; src/statute/facts.cljc docstring for the full disclosure.
+;; src/statute/facts.cljk docstring for the full disclosure.
 
 [#:statute{:id "srb.sl-glasnik-2011-36-zakon-o-privrednim-drustvima"
            :title "Zakon o privrednim društvima (Law on Business Companies)"
